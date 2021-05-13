@@ -1,2 +1,2 @@
 # AEM-VR-Embodiment
- Appleid Experimental Methods Project
+ Applied Experimental Methods Project
