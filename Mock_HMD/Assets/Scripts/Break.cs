@@ -1,13 +1,13 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Break : MonoBehaviour 
 {
 	public Transform brokenObject;
 	public float magnitudeCol, radius, power, upwards;
-	public AudioSource GlassBreakSFX;
 
-	void OnCollisionEnter(Collision collision)
+	public AudioSource GlassBreakSFX;
+	public void OnCollisionEnter(Collision collision)
 	{
 		if (collision.relativeVelocity.magnitude > magnitudeCol)
 		{
@@ -25,6 +25,7 @@ public class Break : MonoBehaviour
 					hit.GetComponent<Rigidbody>().AddExplosionForce(power*collision.relativeVelocity.magnitude, explosionPos, radius, upwards);
 				}
 			}
+			
 		}
 	}
 }

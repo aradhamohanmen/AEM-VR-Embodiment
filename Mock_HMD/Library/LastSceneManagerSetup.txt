@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/VR Threaten.unity
+- path: Assets/VR Task.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

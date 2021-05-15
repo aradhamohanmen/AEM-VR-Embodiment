@@ -3,10 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 public class SFXPlay : MonoBehaviour 
 {
-	public AudioSource GlassBreakSFX;
-	void OnTriggerEnter ()
-	{
-			GlassBreakSFX.Play();
-	}
-		
+	public AudioSource Explosion;
+    public void PlayExplosion() => Explosion.Play();
+
 }
