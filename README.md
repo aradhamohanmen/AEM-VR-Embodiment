@@ -2,7 +2,7 @@
 
 
 # MockHMD 
-Two scenes created. Human Hand is also placed. ** Need Robotic Hand Model. **
+4 scenes created - two for Human Hand, two for Robotic Hand Model (This is the best I could find online)
 
 1. VR Task: 
 * Arranging cubes in a pyramid fashion on a glass table. 
