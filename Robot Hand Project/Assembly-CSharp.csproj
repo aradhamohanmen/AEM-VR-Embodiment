@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\CubeAnimation.cs" />
     <Compile Include="Assets\Scripts\PhysicsButton.cs" />
     <Compile Include="Assets\Scripts\HMDInfomanager.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
