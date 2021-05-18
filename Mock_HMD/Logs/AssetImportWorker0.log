@@ -15,11 +15,11 @@ F:/Github/AEM-VR-Embodiment/Mock_HMD
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59611
+52661
 Successfully changed project path to: F:/Github/AEM-VR-Embodiment/Mock_HMD
 F:/Github/AEM-VR-Embodiment/Mock_HMD
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.56 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 42.17 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,49 +35,187 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001641 seconds.
+Registered in 0.001553 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.14 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 37.61 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.869 seconds
+- Completed reload, in  0.839 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003265 seconds.
+Registered in 0.002653 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.73 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 36.62 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
+- Completed reload, in  0.937 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2338 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 184.8 MB.
 System memory in use after: 184.7 MB.
 
-Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2791.
-Total: 3.361300 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.101100 ms MarkObjects: 2.797000 ms  DeleteObjects: 0.217800 ms)
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2792.
+Total: 2.211500 ms (FindLiveObjects: 0.207700 ms CreateObjectMapping: 0.093200 ms MarkObjects: 1.731500 ms  DeleteObjects: 0.178400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/VR Task (H).unity
-  artifactKey: Guid(fc015b0fb7a9d8a43892ce0cc965a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Task (H).unity using Guid(fc015b0fb7a9d8a43892ce0cc965a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a3d6ac91474ef6e3379e68551c5e6d') in 0.006408 seconds
-  Import took 0.010372 seconds .
+  path: Assets/Scripts/Robot Hand.obj
+  artifactKey: Guid(eafc1abc4a3cb0547ab974a5c258f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Robot Hand.obj using Guid(eafc1abc4a3cb0547ab974a5c258f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5761dcf460c04b73af0cf9a59a89f2e3') in 0.149447 seconds
+  Import took 0.156232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Scripts/SFXPlay.cs
+  artifactKey: Guid(16a810c71c1902b418df0e1bf8ab2a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SFXPlay.cs using Guid(16a810c71c1902b418df0e1bf8ab2a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129fbe7324845d445458ecdaa9b61b94') in 0.009264 seconds
+  Import took 0.011854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(cc9fd27bb00566b46b6ffd0503072d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(cc9fd27bb00566b46b6ffd0503072d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac080dc54e5dfb8d29e845b510d33fc8') in 0.001010 seconds
+  Import took 0.003596 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.97 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2835.
+Total: 3.146200 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.137400 ms MarkObjects: 2.591300 ms  DeleteObjects: 0.093900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003267 seconds.
+Registered in 0.002805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.5 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2839.
+Total: 2.371700 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.062800 ms MarkObjects: 1.949000 ms  DeleteObjects: 0.087000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2843.
+Total: 2.463900 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.068100 ms MarkObjects: 2.056400 ms  DeleteObjects: 0.127400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.817524 seconds.
+  path: Assets/Scripts/Timer.cs
+  artifactKey: Guid(1c5edf9fe9fb30f4ca994242764a7045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Timer.cs using Guid(1c5edf9fe9fb30f4ca994242764a7045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786c06e78c829b8b488f457ff66ef4a6') in 0.003974 seconds
+  Import took 0.007167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016571 seconds.
+  path: Assets/Scripts/Timer.cs
+  artifactKey: Guid(1c5edf9fe9fb30f4ca994242764a7045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Timer.cs using Guid(1c5edf9fe9fb30f4ca994242764a7045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786c06e78c829b8b488f457ff66ef4a6') in 0.001603 seconds
+  Import took 0.005813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.146742 seconds.
+  path: Assets/Scripts/TimerCubes.cs
+  artifactKey: Guid(1c5edf9fe9fb30f4ca994242764a7045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TimerCubes.cs using Guid(1c5edf9fe9fb30f4ca994242764a7045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e57fd908e191639a7cab8f75d26a54d') in 0.001565 seconds
+  Import took 0.006127 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2847.
+Total: 2.456300 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.078300 ms MarkObjects: 2.069600 ms  DeleteObjects: 0.090900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002789 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 6 plugins.
@@ -92,81 +230,15 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.4 MB.
-System memory in use after: 178.6 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2795.
-Total: 2.459000 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.074900 ms MarkObjects: 2.027800 ms  DeleteObjects: 0.133300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002860 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.5 MB.
-System memory in use after: 178.6 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2799.
-Total: 2.405400 ms (FindLiveObjects: 0.203800 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.039000 ms  DeleteObjects: 0.087900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 544.845565 seconds.
-  path: Assets/VR Task (R).unity
-  artifactKey: Guid(837af80620753b344a080816c3323ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Task (R).unity using Guid(837af80620753b344a080816c3323ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db945342e2da31ebeac84925fd96984f') in 0.012154 seconds
-  Import took 0.016108 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002858 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
+- Completed reload, in  0.826 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.57 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2256 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2257 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 178.5 MB.
-System memory in use after: 178.7 MB.
+System memory in use after: 178.6 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2803.
-Total: 2.427800 ms (FindLiveObjects: 0.244900 ms CreateObjectMapping: 0.068400 ms MarkObjects: 2.022200 ms  DeleteObjects: 0.091800 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2851.
+Total: 2.446700 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.069300 ms MarkObjects: 2.062200 ms  DeleteObjects: 0.092000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

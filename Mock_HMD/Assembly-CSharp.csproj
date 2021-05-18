@@ -63,6 +63,7 @@
     <Compile Include="Assets\Models\Grenade\Particle Effects\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Scripts\HMDInfoManager.cs" />
     <Compile Include="Assets\Scripts\Grenade.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Models\Grenade\Particle Effects\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
