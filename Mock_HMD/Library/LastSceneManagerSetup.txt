@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/VR Task (R).unity
+- path: Assets/VR Touch (H).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
