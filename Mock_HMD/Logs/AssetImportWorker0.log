@@ -15,11 +15,11 @@ F:/Github/AEM-VR-Embodiment/Mock_HMD
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53398
+53559
 Successfully changed project path to: F:/Github/AEM-VR-Embodiment/Mock_HMD
 F:/Github/AEM-VR-Embodiment/Mock_HMD
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.27 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 41.50 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,110 +35,65 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001683 seconds.
+Registered in 0.002089 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.91 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 39.52 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.843 seconds
+- Completed reload, in  0.817 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002744 seconds.
+Registered in 0.003122 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.16 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 36.87 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.979 seconds
+- Completed reload, in  0.928 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 184.8 MB.
 System memory in use after: 184.8 MB.
 
 Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2793.
-Total: 2.491200 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.085400 ms MarkObjects: 1.963600 ms  DeleteObjects: 0.183200 ms)
+Total: 2.684300 ms (FindLiveObjects: 0.281200 ms CreateObjectMapping: 0.130100 ms MarkObjects: 2.024400 ms  DeleteObjects: 0.247900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animations/touch/Idle.anim
-  artifactKey: Guid(42831c28611ea5f42a7cdd9fb7dd3828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/touch/Idle.anim using Guid(42831c28611ea5f42a7cdd9fb7dd3828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b4e1a23374cbfe36c180db29dbb0b4') in 0.030736 seconds
-  Import took 0.033712 seconds .
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(df484be891360984fbd54b5b2f904207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(df484be891360984fbd54b5b2f904207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86ff741b9adb8698475a35fcbde9501') in 0.076560 seconds
+  Import took 0.079545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.359565 seconds.
+  path: Assets/VR Threaten (R).unity
+  artifactKey: Guid(b93f213ee8923094a9d4e282907f0d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Threaten (R).unity using Guid(b93f213ee8923094a9d4e282907f0d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caba6d4ab594d4a51686ffe5fdcdcc9d') in 0.002618 seconds
+  Import took 0.006747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000793 seconds.
+  path: Assets/VR Threaten (R).unity
+  artifactKey: Guid(b93f213ee8923094a9d4e282907f0d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Threaten (R).unity using Guid(b93f213ee8923094a9d4e282907f0d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caba6d4ab594d4a51686ffe5fdcdcc9d') in 0.002530 seconds
+  Import took 0.007688 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002917 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.805 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2257 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.5 MB.
-System memory in use after: 178.7 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2797.
-Total: 2.094600 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.076200 ms MarkObjects: 1.744500 ms  DeleteObjects: 0.082900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 375.542910 seconds.
-  path: Assets/VR Task (H).unity
-  artifactKey: Guid(fc015b0fb7a9d8a43892ce0cc965a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Task (H).unity using Guid(fc015b0fb7a9d8a43892ce0cc965a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39423ba725770454d74964a68e6b028d') in 0.008757 seconds
-  Import took 0.013215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.865258 seconds.
-  path: Assets/Prefabs/Button.prefab
-  artifactKey: Guid(c0db78fbf4ac57b4dbe33e3b11fc05ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Button.prefab using Guid(c0db78fbf4ac57b4dbe33e3b11fc05ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd03830bdc8f1be8c95a26b69f4452dc') in 0.071455 seconds
-  Import took 0.075114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.127658 seconds.
-  path: Assets/VR Touch (H).unity
-  artifactKey: Guid(2227c247e30a8f44195794cf6d96b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Touch (H).unity using Guid(2227c247e30a8f44195794cf6d96b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821ca7a650a330e2bfb632ccabf47cb4') in 0.001930 seconds
-  Import took 0.006998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000890 seconds.
-  path: Assets/VR Touch (H).unity
-  artifactKey: Guid(2227c247e30a8f44195794cf6d96b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Touch (H).unity using Guid(2227c247e30a8f44195794cf6d96b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821ca7a650a330e2bfb632ccabf47cb4') in 0.002442 seconds
-  Import took 0.007962 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002763 seconds.
+Registered in 0.003297 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
@@ -153,29 +108,237 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
+- Completed reload, in  0.783 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.49 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2257 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.2 MB.
+System memory in use before: 178.1 MB.
 System memory in use after: 178.3 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2808.
-Total: 2.127000 ms (FindLiveObjects: 0.169300 ms CreateObjectMapping: 0.067800 ms MarkObjects: 1.799500 ms  DeleteObjects: 0.089900 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2804.
+Total: 2.471700 ms (FindLiveObjects: 0.265700 ms CreateObjectMapping: 0.077700 ms MarkObjects: 2.036600 ms  DeleteObjects: 0.090800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 193.925310 seconds.
-  path: Assets/Animations/touch.controller
-  artifactKey: Guid(c8173e7251329324497e26645f8c1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/touch.controller using Guid(c8173e7251329324497e26645f8c1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cf2def7d97fae780b3bcb762e2503e') in 0.013030 seconds
-  Import took 0.017787 seconds .
+  Time since last request: 352.675322 seconds.
+  path: Packages/com.unity.xr.openxr
+  artifactKey: Guid(cc9ee5c4ed88fab5898e2fb8b1c53e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.openxr using Guid(cc9ee5c4ed88fab5898e2fb8b1c53e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75bbe81c2a7a900dad5d4d7763918bd') in 0.006417 seconds
+  Import took 0.009816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.137553 seconds.
+  path: Packages/com.unity.2d.sprite
+  artifactKey: Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite using Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac9f0859ed1eccac4506b3b2480e9d0') in 0.002444 seconds
+  Import took 0.007276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.603770 seconds.
+  path: Assets/Models/RobotHand.obj
+  artifactKey: Guid(13e90fcca08ecad4ea2b84653a4bd5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotHand.obj using Guid(13e90fcca08ecad4ea2b84653a4bd5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bb0f99afb4b02d7513028f9205623c') in 0.173050 seconds
+  Import took 0.176196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Models/Grenade/Particle Effects/Fire & Explosion Effects/Textures/Ramp03.png
+  artifactKey: Guid(595a5c1164fec844f8e6b477620221f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Grenade/Particle Effects/Fire & Explosion Effects/Textures/Ramp03.png using Guid(595a5c1164fec844f8e6b477620221f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c911082572b913adffb1304ece553ca6') in 0.024864 seconds
+  Import took 0.027932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Models/Grenade/Particle Effects/Magic Effects/Textures/Ramp03.png
+  artifactKey: Guid(02893ea4ea3a2be419d65586df89bcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Grenade/Particle Effects/Magic Effects/Textures/Ramp03.png using Guid(02893ea4ea3a2be419d65586df89bcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c45468154465252b34ec4935d3fe106') in 0.004476 seconds
+  Import took 0.007477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Models/Grenade/Particle Effects/Fire & Explosion Effects/Materials/MediumFlame03.mat
+  artifactKey: Guid(6b187db0c2e012840b1199ccf0893b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Grenade/Particle Effects/Fire & Explosion Effects/Materials/MediumFlame03.mat using Guid(6b187db0c2e012840b1199ccf0893b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8b02c4b79778dfb00cee20682eb90d') in 0.022078 seconds
+  Import took 0.025470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Models/Grenade/Particle Effects/Misc Effects/Textures/DustPuffSmall.png
+  artifactKey: Guid(271edbc011d9e03489f73cef81b2d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Grenade/Particle Effects/Misc Effects/Textures/DustPuffSmall.png using Guid(271edbc011d9e03489f73cef81b2d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8171b928663da8412f150a3edd998f7') in 0.025220 seconds
+  Import took 0.028834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Models/Grenade/Particle Effects/Magic Effects/Textures/DustPuffSmall.png
+  artifactKey: Guid(a547fca3b7d596c4d9bcb07a747ec5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Grenade/Particle Effects/Magic Effects/Textures/DustPuffSmall.png using Guid(a547fca3b7d596c4d9bcb07a747ec5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90f0711412eaa211c7d2b20adcea13b') in 0.011847 seconds
+  Import took 0.015535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Models/Grenade/Particle Effects/Weapon Effects/Textures/DustPuffSmallParticleSheet.png
+  artifactKey: Guid(32dde075fa5f86d458327a2ac0c4593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Grenade/Particle Effects/Weapon Effects/Textures/DustPuffSmallParticleSheet.png using Guid(32dde075fa5f86d458327a2ac0c4593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9bc9eddac64afc890ce8173cedf02f') in 0.012417 seconds
+  Import took 0.016235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Models/Grenade/Particle Effects/Fire & Explosion Effects/Textures/MediumFlame03.tif
+  artifactKey: Guid(8ac487e221970a74fbf27f24086ea441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Grenade/Particle Effects/Fire & Explosion Effects/Textures/MediumFlame03.tif using Guid(8ac487e221970a74fbf27f24086ea441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34189cd3ff180192d95fa1ebc44a3950') in 0.016431 seconds
+  Import took 0.020735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Models/Grenade/Particle Effects/Smoke & Steam Effects/Materials/SmokeySteam03.mat
+  artifactKey: Guid(fd80cdb028e1d864392334da34ca021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Grenade/Particle Effects/Smoke & Steam Effects/Materials/SmokeySteam03.mat using Guid(fd80cdb028e1d864392334da34ca021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab05c9c294b427158a941a2b6555d7c') in 0.022454 seconds
+  Import took 0.025913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Meshes/glassplate-broken.fbx
+  artifactKey: Guid(b9f2dfd43f7faa14698cced293cc9c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/glassplate-broken.fbx using Guid(b9f2dfd43f7faa14698cced293cc9c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab61bd32458b789f3f7bf252fa19b1d') in 0.137624 seconds
+  Import took 0.141394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.351242 seconds.
+  path: Assets/Prefabs/Axe
+  artifactKey: Guid(e18b27bf20888164196264aa99c52082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Axe using Guid(e18b27bf20888164196264aa99c52082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e14117a89df2018882fb5484253dd0') in 0.001261 seconds
+  Import took 0.005144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Prefabs/Axe
+  artifactKey: Guid(e18b27bf20888164196264aa99c52082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Axe using Guid(e18b27bf20888164196264aa99c52082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e14117a89df2018882fb5484253dd0') in 0.002552 seconds
+  Import took 0.007339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134427 seconds.
+  path: Assets/Prefabs/Axe/axe.obj
+  artifactKey: Guid(c160772856436f4418a29e03faa16e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Axe/axe.obj using Guid(c160772856436f4418a29e03faa16e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc070602700eb52a5f4e1c0782d11bc5') in 0.215903 seconds
+  Import took 0.219213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Prefabs/Axe/axe.png
+  artifactKey: Guid(f79074e16e670c84ba279f50e0981dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Axe/axe.png using Guid(f79074e16e670c84ba279f50e0981dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a787c05b881e7fbee37865e05d0ee11') in 0.005459 seconds
+  Import took 0.008799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Prefabs/Axe/axe.prefab
+  artifactKey: Guid(a6f75ae2198bd1e47b95c317412b3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Axe/axe.prefab using Guid(a6f75ae2198bd1e47b95c317412b3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdc3e1dff09c20f5b065dcc0909ed31') in 0.007444 seconds
+  Import took 0.011210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.959529 seconds.
+  path: Assets/ProBuilder Data/Default Color Palette.asset
+  artifactKey: Guid(2ee2d6afa586bae4b8e339d338c4a0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Color Palette.asset using Guid(2ee2d6afa586bae4b8e339d338c4a0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25de572821f5d7a1b4c7d2678a52c6d') in 0.004218 seconds
+  Import took 0.008605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(27ab3d59fa50efb47b2df7523b59e1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(27ab3d59fa50efb47b2df7523b59e1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58874c89f67a06fe4b00ff3478cb8a0c') in 0.002678 seconds
+  Import took 0.006205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.578637 seconds.
+  path: Assets/Animations/Axe.controller
+  artifactKey: Guid(cd8184fddfe3ea04fa3fb3989e359794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Axe.controller using Guid(cd8184fddfe3ea04fa3fb3989e359794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae95ebadb658d35b6efe080a1a7fb4db') in 0.004360 seconds
+  Import took 0.007958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000728 seconds.
+  path: Assets/Animations/Axe.controller
+  artifactKey: Guid(cd8184fddfe3ea04fa3fb3989e359794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Axe.controller using Guid(cd8184fddfe3ea04fa3fb3989e359794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae95ebadb658d35b6efe080a1a7fb4db') in 0.001604 seconds
+  Import took 0.004453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.341438 seconds.
+  path: Assets/Animations/Axe
+  artifactKey: Guid(e57d828f997c27447813fb5060e1fbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Axe using Guid(e57d828f997c27447813fb5060e1fbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0493fa944d952899a34674816daa741') in 0.002012 seconds
+  Import took 0.006766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.817897 seconds.
+  path: Assets/Animations/Axe/Idle.anim
+  artifactKey: Guid(8f1c939d34cc8bb48b3ef6060e0de2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Axe/Idle.anim using Guid(8f1c939d34cc8bb48b3ef6060e0de2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cb22568c2210ddfcbd3bb2e0b9e110') in 0.006034 seconds
+  Import took 0.010877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.776116 seconds.
+  path: Assets/Animations/Axe/Chop.anim
+  artifactKey: Guid(467ae8a8002e5e04bb935e4f50c1d4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Axe/Chop.anim using Guid(467ae8a8002e5e04bb935e4f50c1d4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b175c8b42702ec85a2400790e3416b') in 0.002497 seconds
+  Import took 0.007479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001224 seconds.
+  path: Assets/Animations/Axe/Chop.anim
+  artifactKey: Guid(467ae8a8002e5e04bb935e4f50c1d4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Axe/Chop.anim using Guid(467ae8a8002e5e04bb935e4f50c1d4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b175c8b42702ec85a2400790e3416b') in 0.002462 seconds
+  Import took 0.006359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.231956 seconds.
+  path: Assets/Animations/Axe.controller
+  artifactKey: Guid(cd8184fddfe3ea04fa3fb3989e359794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Axe.controller using Guid(cd8184fddfe3ea04fa3fb3989e359794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b657dfe9cf5277e4687e5c38210c0f') in 0.002549 seconds
+  Import took 0.006884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001581 seconds.
+  path: Assets/Animations/Axe.controller
+  artifactKey: Guid(cd8184fddfe3ea04fa3fb3989e359794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Axe.controller using Guid(cd8184fddfe3ea04fa3fb3989e359794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b657dfe9cf5277e4687e5c38210c0f') in 0.002770 seconds
+  Import took 0.008518 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003026 seconds.
+Registered in 0.002795 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
@@ -190,44 +353,15 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.776 seconds
+- Completed reload, in  0.770 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2257 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.2 MB.
-System memory in use after: 178.3 MB.
+System memory in use before: 179.0 MB.
+System memory in use after: 179.1 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2812.
-Total: 2.485800 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.029400 ms  DeleteObjects: 0.087700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004936 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:/Users/aksha/Documents/GitHub/AEM-VR-Embodiment/Mock_HMD/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2257 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.2 MB.
-System memory in use after: 178.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2816.
-Total: 2.342200 ms (FindLiveObjects: 0.210700 ms CreateObjectMapping: 0.079600 ms MarkObjects: 1.967700 ms  DeleteObjects: 0.083600 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2849.
+Total: 2.491600 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.091000 ms MarkObjects: 2.075900 ms  DeleteObjects: 0.091500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
