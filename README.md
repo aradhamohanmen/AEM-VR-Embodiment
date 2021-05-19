@@ -1,20 +1,22 @@
-## AEM-VR-Embodiment -> Applied Experimental Methods Project
+## AEM-VR-Embodiment -> Applied Experimental Methods Course Project
 
 
-# MockHMD 
-4 scenes created - two for Human Hand, two for Robotic Hand Model (This is the best I could find online)
+# MockHMD <-Main folder 
+6 scenes created - 3 for Human Hand, 3 for Robotic Hand Model.
 
-1. VR Task: 
-* Arranging cubes in a pyramid fashion on a glass table. 
-* Need careful movement, if cube dropped carelessly (if impactful), glass table will break. 
-* Added Buton Clicker.
+1. Touch: Body Ownership Activation
+- When Button is pressed, the sphere moves towards the virtual hand. At the same time, synchronous touching of the real hand 
+is carried out to allow for body ownership.
 
-- Need to setup timer for it 
- * 30 seconds -> First Click button -> Interact & set up pyramid -> click button to finish -> record time
+2. Task: Body Ownership Experience
+- Press button. Timer starts.
+- Arrang the cubes in a pyramid fashion on a glass table. 
+- Need careful movement. If cube is dropped carelessly, and if impactful enough, glass top will break. 
+- Press button to stop timer.
 
-
-2. VR Threaten: 
-* Grenade Explosion setup. 
-* Added Button clicker.
+3. Threaten: Response Time
+- Press and hold button. Time starts. 
+- Axe falls after a time interval.
+- When hand is removed, time clock stops and response time is measured.
 
 - Time clock for measuring response time.
