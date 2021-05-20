@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/(3) Threaten (R).unity
+- path: Assets/(3) Threaten (Alien).unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/(3) Threaten (Human).unity
+  isLoaded: 1
+  isActive: 0
   isSubScene: 0
