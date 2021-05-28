@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Events.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\Hide.cs" />
      <Compile Include="Assets\Scripts\SFXPlay.cs" />
      <Compile Include="Assets\Scripts\Break.cs" />
      <Compile Include="Assets\Scripts\HandButton.cs" />
