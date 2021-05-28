@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/(1) Touch (Human).unity
+- path: Assets/(Human) 1.Task.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
